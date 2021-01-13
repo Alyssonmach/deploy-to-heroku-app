@@ -3,12 +3,10 @@ from PIL import Image
 import numpy as np
 from predict_user import organize_image, predict
 
-
-
 st.title("Finding 😺 in pictures")
 st.write("### Using a layered neural network to classify images as 'cat' / 'non-cat'.")
 st.sidebar.write('# 😺 or 🚫')
-uploaded_file = st.sidebar.file_uploader(label = 'upload your image:', type="jpg")
+uploaded_file = st.sidebar.file_uploader(label = 'upload your image:')
 
 if uploaded_file is not None:
 
