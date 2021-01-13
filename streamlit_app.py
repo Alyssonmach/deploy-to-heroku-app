@@ -20,4 +20,4 @@ if uploaded_file is not None:
         
     image = Image.open(uploaded_file)
     st.sidebar.image(image, caption='Uploaded Image', use_column_width = True)
-    st.image('images\model-resume.png', caption = 'L-layer Model', use_column_width = True)
+    st.image('images/model-resume.png', caption = 'L-layer Model', use_column_width = True)
