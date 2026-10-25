@@ -34,7 +34,3 @@ streamlit run streamlit_app.py
 
 ![non-cat](images/image-example1.PNG)
 ![cat](images/image-example2.PNG)
-
-## Contact me
-
-- [Send me a email](mailto:alysson.barbosa@ee.ufcg.edu.br)
